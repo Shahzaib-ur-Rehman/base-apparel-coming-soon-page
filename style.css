@@ -1,7 +1,7 @@
 :root {
-  --clr-primary-400: hsl(0, 93%, 68%);
+  --clr-primary-400: rgb(249, 98, 98);
 
-  --clr-secondary-400: hsl(0, 36%, 70%);
+  --clr-secondary-400: rgb(206, 151, 151);
 
   --clr-neutral-900: hsl(0, 6%, 24%);
 
@@ -185,7 +185,7 @@ body {
   border: 1px solid var(--clr-secondary-400);
   color: var(--clr-neutral-900);
   background-color: inherit;
-  padding: 0.4rem 1rem;
+  padding: 0.6rem 1rem;
   border-radius: 100vw;
   width: 100%;
 }
@@ -207,7 +207,7 @@ body {
   right: -0.2rem;
   border: 0;
   background: var(--gradient-secondary);
-  padding: 0.6rem 1.5rem;
+  padding: 0.8rem 2rem;
   border-radius: 100vw;
   box-shadow: 0.1rem 0.4rem 1rem var(--clr-secondary-400);
 }
@@ -215,6 +215,6 @@ body {
 .error-icon {
   display: none;
   position: absolute;
-  right: 4rem;
-  top: 0.4rem;
+  right: 5rem;
+  top: 0.6rem;
 }
