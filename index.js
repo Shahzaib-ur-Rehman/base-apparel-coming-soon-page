@@ -17,6 +17,7 @@ function handleSubmit(event) {
     errorIcon.style.display = "none";
     email.style.border="1px solid #ce9797";
     email.removeAttribute("aria-invalid");
+    alert("Successfully Subscribed!!!")
   } else {
     const errorBox = document.getElementById("email-error");
     const errorIcon = document.getElementById("error-icon");
