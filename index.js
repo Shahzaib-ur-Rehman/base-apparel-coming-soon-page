@@ -16,11 +16,13 @@ function handleSubmit(event) {
     errorBox.style.display = "none";
     errorIcon.style.display = "none";
     email.style.border="1px solid #ce9797";
+    email.removeAttribute("aria-invalid");
   } else {
     const errorBox = document.getElementById("email-error");
     const errorIcon = document.getElementById("error-icon");
     errorBox.style.display = "block";
     errorIcon.style.display = "block";
     email.style.border="2px solid #f96262";
+    email.setAttribute("aria-invalid", "true");
   }
 }
